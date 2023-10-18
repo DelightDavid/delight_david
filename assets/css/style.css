@@ -90,7 +90,7 @@ a:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 @media (max-width: 1024px) {
@@ -457,10 +457,14 @@ a:hover {
 
 #header .logo {
   font-size: 28px;
-  margin: 0;
+  margin: -40px;
   padding: 0;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+#header .logo a:hover {
+  color: #0062d3;
 }
 
 #header .logo a {
@@ -476,6 +480,10 @@ a:hover {
   padding: 12px 0;
 }
 
+.section-counter {
+  margin-top: 100px;
+  height: 60vh;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1060,11 +1068,11 @@ a:hover {
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
-  padding: 4rem 0 0 0;
+  padding: 0.3rem 0 0 0;
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 @media (min-width: 767px) {
@@ -1074,12 +1082,16 @@ a:hover {
   }
 }
 
+.title-left {
+  padding: -50px;
+}
+
 .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
   text-align: center;
-  padding: 15px;
+  padding: 8px;
   font-weight: 600;
 }
 
@@ -1088,7 +1100,7 @@ a:hover {
   color: #fff;
   background: #18d26e;
   text-align: center;
-  padding: 15px;
+  padding: 8px;
   font-weight: 600;
 }
 
@@ -1115,7 +1127,7 @@ a:hover {
 .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .php-email-form input:focus,
@@ -1124,18 +1136,18 @@ a:hover {
 }
 
 .php-email-form input {
-  padding: 10px 15px;
+  padding: 5px 10px;
 }
 
 .php-email-form textarea {
-  padding: 12px 15px;
+  padding: 8px 12px;
   margin-bottom: 0;
 }
 
 .php-email-form button[type=submit] {
   background: #0078ff;
   border: 0;
-  padding: 10px 24px;
+  padding: 5px 15px;
   color: #fff;
   transition: 0.4s;
 }
