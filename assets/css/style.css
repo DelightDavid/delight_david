@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #e571c8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #1b998b;
 }
 
 .overlay-mf {
@@ -542,7 +542,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #ED217C;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -594,7 +594,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #ED217C;
 }
 
 .navbar .dropdown:hover>ul {
@@ -699,7 +699,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color:#0078ff;
 }
 
 .navbar-mobile .getstarted,
@@ -872,23 +872,31 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: #ED217C;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
 }
 
+.service-box .ico-circle {
+  transition: all 500ms ease;
+  color: #1B998B;
+  background-color: #fff;
+  box-shadow: 0 0 0 10px #1B998B;
+}
+
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: #1B998B;
+  background-color: #fff;
+  box-shadow: 0 0 0 10px pink;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+  
 }
 
 .service-box .ico-circle {
@@ -911,11 +919,11 @@ a:hover {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: black;
 }
 
 /*--------------------------------------------------------------
-# Counter
+# Work
 --------------------------------------------------------------*/
 .counter-box {
   color: #fff;
@@ -936,7 +944,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px pink;
 }
 
 .counter-num .counter {
@@ -1083,13 +1091,14 @@ a:hover {
 }
 
 .title-left {
-  padding: -50px;
+  padding: -0px;
+  color: #ED217C;
 }
 
 .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #ED217C;
   text-align: center;
   padding: 8px;
   font-weight: 600;
@@ -1132,7 +1141,7 @@ a:hover {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #0078ff;
+  border-color: #1b998b;
 }
 
 .php-email-form input {
@@ -1145,7 +1154,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #ED217C;
   border: 0;
   padding: 5px 15px;
   color: #fff;
@@ -1153,7 +1162,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit]:hover {
-  background: #3393ff;
+  background: #ED217C;
 }
 
 @keyframes animate-loading {
